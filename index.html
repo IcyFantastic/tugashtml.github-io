@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="">
+    <title>@icyfantastic - 71231039 - Personal Web Page Hansel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">Welcome to My Web Page &#128511;</header>
+        <aside class="sidebar">
+        <img src="Hansel.jpg" width="320px" height="320px" alt="Foto Saya">
+        </aside>
+        <article class="content">
+            <h2>About Me</h2>
+            <h4>Hansel Ivano Supratman</h4>
+            <ul>
+                <li><h3>@icyfantastic</h3></li>
+                <li><h3>Kota Cirebon, Jawa Barat, Indonesia</h3></li>
+                <li><h3><a href="https://www.ukdw.ac.id/">Duta Wacana Christian University</a></h3></li>
+            </ul>
+            <h3>Skillset</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Lua</li>
+            </ol>
+        </article>
+        <button id="tombolGantiWarna">Tombol Ganti Warna Background Random</button>
+        <script>
+
+            let body = document.querySelector('body');
+            document.querySelector('#red').addEventListener('click', function() {
+                body.style.backgroundColor = 'red';
+            });
+            document.querySelector('#green').addEventListener('click', function() {
+                body.style.backgroundColor = 'green';
+            });
+            document.querySelector('#blue').addEventListener('click', function() {
+                body.style.backgroundColor = 'blue';
+            });
+
+        </script>
+        <footer class="footer">Thank You for Visiting My Web Page</footer>
+      </div>
+</body>
+</html>
